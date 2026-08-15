@@ -1,4 +1,6 @@
 :root {
     --font: system-ui;
     --form-width: 66%;
+    --scrollbar-thumb-color: #9f9f9f;
+    --scrollbar-track-color: #2c2c2c;
 }
