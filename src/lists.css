@@ -11,3 +11,17 @@ ol ol {
   margin-top: 0;
   margin-bottom: 0;
 }
+
+ol:not(.custom-ol) {
+  counter-reset: item;
+}
+
+ol:not(.custom-ol) li::before {
+  content: counters(item, ".") ". ";
+  counter-increment: item;
+}
+
+ol:not(.custom-ol) ol li::before {
+  content: counters(item, ".") " ";
+  counter-increment: item;
+}
