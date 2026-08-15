@@ -1,4 +1,4 @@
-.pure-g {
+.g {
     display: flex;
     flex-flow: row wrap;
 
@@ -6,7 +6,7 @@
     align-content: flex-start;
 }
 
-.pure-u {
+.u {
     display: inline-block;
     vertical-align: top;
 }

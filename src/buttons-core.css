@@ -1,4 +1,4 @@
-.pure-button {
+.button {
     display: inline-block;
     line-height: normal;
     white-space: nowrap;
@@ -11,23 +11,23 @@
 }
 
 /* Firefox: Get rid of the inner focus border */
-.pure-button::-moz-focus-inner {
+.button::-moz-focus-inner {
     padding: 0;
     border: 0;
 }
 
 /* Inherit .pure-g styles */
-.pure-button-group {
+.button-group {
     letter-spacing: -0.31em; /* Webkit: collapse white-space between units */
     text-rendering: optimizespeed; /* Webkit: fixes text-rendering: optimizeLegibility */
 }
 
 .opera-only :-o-prefocus,
-.pure-button-group {
+.button-group {
     word-spacing: -0.43em;
 }
 
-.pure-button-group .pure-button {
+.button-group .button {
     letter-spacing: normal;
     word-spacing: normal;
     vertical-align: top;
