@@ -36,10 +36,6 @@
     pointer-events: none;
 }
 
-.button-hidden {
-    display: none;
-}
-
 .button-primary,
 .button-selected,
 a.button-primary,
