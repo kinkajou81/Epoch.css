@@ -9,9 +9,9 @@
 }
 
 /* Initial menus should be inline-block so that they are horizontal */
-.menu-horizontal .pure-menu-item,
-.menu-horizontal .pure-menu-heading,
-.menu-horizontal .pure-menu-separator {
+.menu-horizontal .menu-item,
+.menu-horizontal .menu-heading,
+.menu-horizontal .menu-separator {
     display: inline-block;
     vertical-align: middle;
 }

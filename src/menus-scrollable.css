@@ -8,11 +8,11 @@
     display: block;
 }
 
-.pure-menu-horizontal.menu-scrollable .pure-menu-list {
+.menu-horizontal.menu-scrollable .menu-list {
     display: inline-block;
 }
 
-.pure-menu-horizontal.menu-scrollable {
+.menu-horizontal.menu-scrollable {
     white-space: nowrap;
     overflow-y: hidden;
     overflow-x: auto;

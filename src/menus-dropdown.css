@@ -13,26 +13,26 @@
     z-index: 3;
 }
 
-.menu-horizontal .pure-menu-children {
+.menu-horizontal .menu-children {
     left: 0;
     top: auto;
     width: inherit;
 }
 
-.menu-allow-hover:hover > .pure-menu-children,
-.menu-active > .pure-menu-children {
+.menu-allow-hover:hover > .menu-children,
+.menu-active > .menu-children {
     display: block;
     position: absolute;
 }
 
 /* Vertical Menus - show the dropdown arrow */
-.menu-has-children > .pure-menu-link:after {
+.menu-has-children > .menu-link:after {
     padding-left: 0.5em;
     content: "\25B8";
     font-size: small;
 }
 
 /* Horizontal Menus - show the dropdown arrow */
-.menu-horizontal .pure-menu-has-children > .pure-menu-link:after {
+.menu-horizontal .menu-has-children > .menu-link:after {
     content: "\25BE";
 }
