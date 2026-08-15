@@ -1,5 +1,8 @@
-html {
-    font-family: sans-serif;
+html, body {
+    font-family: var(--default-font);
+    position: absolute;
+    height: 100%;
+    width: 100%;
 }
 
 /* Always hide an element when it has the `hidden` HTML attribute. */
