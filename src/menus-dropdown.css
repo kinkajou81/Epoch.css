@@ -1,5 +1,5 @@
 /* Submenus should still be display: block; */
-.menu-item .pure-menu-item {
+.menu-item .menu-item {
     display: block;
 }
 
