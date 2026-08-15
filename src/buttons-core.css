@@ -15,21 +15,3 @@
     padding: 0;
     border: 0;
 }
-
-/* Inherit .pure-g styles */
-.button-group {
-    letter-spacing: -0.31em; /* Webkit: collapse white-space between units */
-    text-rendering: optimizespeed; /* Webkit: fixes text-rendering: optimizeLegibility */
-}
-
-.opera-only :-o-prefocus,
-.button-group {
-    word-spacing: -0.43em;
-}
-
-.button-group .button {
-    letter-spacing: normal;
-    word-spacing: normal;
-    vertical-align: top;
-    text-rendering: auto;
-}

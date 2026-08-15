@@ -47,21 +47,3 @@ a.button-selected {
     background-color: rgb(0, 120, 231);
     color: #fff;
 }
-
-/* Button Groups */
-.button-group .button {
-    margin: 0;
-    border-radius: 0;
-    border-right: 1px solid rgba(0, 0, 0, 0.2);
-
-}
-
-.button-group .button:first-child {
-    border-top-left-radius: 2px;
-    border-bottom-left-radius: 2px;
-}
-.button-group .button:last-child {
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    border-right: none;
-}
