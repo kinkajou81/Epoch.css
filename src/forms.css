@@ -1,9 +1,7 @@
-/*
-Box-model set to false because we're setting a height on select elements, which
-also have border and padding. This is done because some browsers don't render
-the padding. We explicitly set the box-model for select elements to border-box,
-so we can ignore the csslint warning.
-*/
+/* Box-model set to false because we're setting a height on select elements,
+which also have border and padding. This is done because some browsers don't
+render the padding. We explicitly set the box-model for select elements to 
+border-box, so we can ignore the csslint warning. */
 
 .form input[type="text"],
 .form input[type="password"],
@@ -30,10 +28,8 @@ so we can ignore the csslint warning.
     box-sizing: border-box;
 }
 
-/*
-Need to separate out the :not() selector from the rest of the CSS 2.1 selectors
-since IE8 won't execute CSS that contains a CSS3 selector.
-*/
+/* Need to separate out the :not() selector from the rest of the CSS 2.1
+selectors since IE8 won't execute CSS that contains a CSS3 selector. */
 .form input:not([type]) {
     padding: 0.5em 0.6em;
     display: inline-block;
@@ -71,10 +67,8 @@ since IE8 won't execute CSS that contains a CSS3 selector.
     border-color: #129FEA;
 }
 
-/*
-Need to separate out the :not() selector from the rest of the CSS 2.1 selectors
-since IE8 won't execute CSS that contains a CSS3 selector.
-*/
+/* Need to separate out the :not() selector from the rest of the CSS 2.1
+selectors since IE8 won't execute CSS that contains a CSS3 selector. */
 .form input:not([type]):focus {
     outline: 0;
     border-color: #129FEA;
@@ -113,10 +107,8 @@ since IE8 won't execute CSS that contains a CSS3 selector.
     color: #cad2d3;
 }
 
-/*
-Need to separate out the :not() selector from the rest of the CSS 2.1 selectors
-since IE8 won't execute CSS that contains a CSS3 selector.
-*/
+/* Need to separate out the :not() selector from the rest of the CSS 2.1
+selectors since IE8 won't execute CSS that contains a CSS3 selector. */
 .form input:not([type])[disabled] {
     cursor: not-allowed;
     background-color: #eaeded;
@@ -189,10 +181,8 @@ since IE8 won't execute CSS that contains a CSS3 selector.
     margin: 0.25em 0;
 }
 
-/*
-Need to separate out the :not() selector from the rest of the CSS 2.1 selectors
-since IE8 won't execute CSS that contains a CSS3 selector.
-*/
+/* Need to separate out the :not() selector from the rest of the CSS 2.1
+selectors since IE8 won't execute CSS that contains a CSS3 selector. */
 .form-stacked input:not([type]) {
     display: block;
     margin: 0.25em 0;

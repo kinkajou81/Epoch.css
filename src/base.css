@@ -2,19 +2,14 @@ html {
     font-family: sans-serif;
 }
 
-/**
- * Always hide an element when it has the `hidden` HTML attribute.
- */
-
+/* Always hide an element when it has the `hidden` HTML attribute. */
 .hidden,
 [hidden] {
     display: none !important;
 }
 
-/**
- * Add this class to an image to make it fit within its fluid parent wrapper while maintaining
- * aspect ratio.
- */
+/* Add this class to an image to make it fit within its fluid parent wrapper
+while maintaining aspect ratio. */
 .img {
     max-width: 100%;
     height: auto;
