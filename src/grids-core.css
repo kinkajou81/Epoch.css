@@ -1,7 +1,6 @@
 .g {
     display: flex;
     flex-flow: row wrap;
-
     /* Prevents distributing space between rows */
     align-content: flex-start;
 }
