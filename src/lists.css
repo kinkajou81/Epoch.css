@@ -6,3 +6,8 @@ ul ul {
 nav > ul > li {
   padding-left: 0;
 }
+
+ol ol {
+  margin-top: 0;
+  margin-bottom: 0;
+}
